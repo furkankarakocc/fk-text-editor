@@ -1,5 +1,7 @@
 # 📝 fk-text-editor
 
+> ⚠️ **Beta Sürümü Notu:** Bu proje şu anda **Beta (v0.x)** aşamasındadır. Temel özellikler kararlı bir şekilde çalışsa da geliştirme süreci devam etmektedir. Kullanım sırasında karşılaştığınız hataları (bug) bildirmek veya yeni özellik önerilerinde bulunmak için lütfen [Issues](../../issues) bölümünü kullanın. Geri bildirimleriniz projenin gelişimi için çok değerlidir!
+
 fk-text-editor, Python ve Tkinter kütüphanesi kullanılarak geliştirilmiş, minimalist, kullanıcı dostu ve hafif (lightweight) bir masaüstü metin düzenleyicidir. Günlük notlarınızı tutmak, kod taslakları oluşturmak veya `.fk` uzantılı özel dosyalarınızı yönetmek için ideal bir araçtır.
 
 ---
