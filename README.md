@@ -11,7 +11,7 @@ Furkan's Text Editor, Python ve Tkinter kütüphanesi kullanılarak geliştirilm
 * **🎨 Tema Desteği:** Göz yorgunluğunu azaltmak için tek tıkla **Karanlık Tema (Dark Mode)** ve **Aydınlık Tema (Light Mode)** arasında geçiş yapabilirsiniz.
 * **⚙️ Özelleştirilebilir Font Boyutu:** Okunabilirliği artırmak için Ayarlar menüsünden yazı boyutunu (10px - 26px) değiştirebilirsiniz.
 * **⌨️ Kısayol Tuşları Desteği:** Fare kullanmadan, klavyenizdeki fonksiyon tuşları (F1-F5) ile hızlı aksiyonlar alabilirsiniz.
-* * **🚀 Taşınabilir (.EXE) Sürüm:** Projenin Windows işletim sistemlerinde Python kurulumuna ihtiyaç duymadan, doğrudan çift tıklayarak çalıştırılabilecek hazır bir `.exe` sürümü mevcuttur.
+* **🚀 Taşınabilir (.EXE) Sürüm:** Projenin Windows işletim sistemlerinde Python kurulumuna ihtiyaç duymadan, doğrudan çift tıklayarak çalıştırılabilecek hazır bir `.exe` sürümü mevcuttur.
 
 ---
 
