@@ -13,24 +13,24 @@ fk-text-editor, Python ve Tkinter kütüphanesi kullanılarak geliştirilmiş, m
 * **🎨 Tema Desteği:** Göz yorgunluğunu azaltmak için tek tıkla **Karanlık Tema (Dark Mode)** ve **Aydınlık Tema (Light Mode)** arasında geçiş yapabilirsiniz.
 * **⚙️ Özelleştirilebilir Font Boyutu:** Okunabilirliği artırmak için Ayarlar menüsünden yazı boyutunu (10px - 26px) değiştirebilirsiniz.
 * **⌨️ Kısayol Tuşları Desteği:** Fare kullanmadan, klavyenizdeki fonksiyon tuşları (F1-F5) ile hızlı aksiyonlar alabilirsiniz.
-* **🚀 Taşınabilir (.EXE) Sürüm:** Projenin Windows işletim sistemlerinde Python kurulumuna ihtiyaç duymadan, doğrudan çift tıklayarak çalıştırılabilecek hazır bir `.exe` sürümü mevcuttur.
+* **📦 Çoklu Platform ve Taşınabilir (Portable) Sürümler:** Proje hem Windows (.exe) hem de Linux/Ubuntu (.bin) için kurulumsuz çalışacak şekilde derlenmiştir. Ayrıca izole çalıştırma için Docker desteği mevcuttur.
 
 ---
 
-## 🚀 Kurulum ve Çalıştırma
+## 🚀 Kurulum ve Çalıştırma Seçenekleri
 
-Projenizi çalıştırmak için iki farklı alternatifiniz bulunmaktadır:
+Projenizi çalıştırmak için işletim sisteminize ve tercihinize göre 4 farklı alternatif bulunmaktadır:
 
-### Alternatif 1: Hazır Çalıştırılabilir Dosya (Önerilen)
-Eğer Windows kullanıyorsanız ve bilgisayarınızda Python yüklü değilse, proje klasöründeki hazır **`.exe`** uzantılı dosyaya çift tıklayarak editörü kurulumsuz ve taşınabilir (portable) olarak anında başlatabilirsiniz.
+### 1. Windows Taşınabilir Sürüm (.EXE)
+Eğer Windows kullanıyorsanız ve bilgisayarınızda Python yüklü değilse, proje klasöründeki hazır **`.exe`** uzantılı dosyaya çift tıklayarak editörü kurulumsuz olarak anında başlatabilirsiniz.
 
-### Alternatif 2: Kaynak Koddan Çalıştırma (Python)
-Sisteminizde **Python 3** yüklüyse, terminal veya komut satırı üzerinden şu adımları takip edebilirsiniz:
-
-1. Bu depoyu bilgisayarınıza klonlayın veya ZIP olarak indirin:
+### 2. Linux (Ubuntu / Debian / Mint) Taşınabilir Sürüm
+Ubuntu veya Debian tabanlı bir Linux dağıtımı kullanıyorsanız, Python kurulumu gerekmeden doğrudan derlenmiş sürümü çalıştırabilirsiniz:
+1. `fk-text-editor-linux` dosyasına sağ tıklayıp **Özellikler -> İzinler** sekmesinden *"Dosyayı bir program gibi çalıştırmaya izin ver"* seçeneğini aktif edin.
+2. Ya da terminalden şu komutları çalıştırın:
    ```bash
-   git clone [https://github.com/furkankarakocc/fk-text-editor.git](https://github.com/furkankarakocc/fk-text-editor.git)
-Proje klasörüne giriş yapın:
+   chmod +x fk-text-editor-linux
+   ./fk-text-editor-linux
 
 Bash
 cd fk-text-editor
@@ -42,8 +42,10 @@ python main.py
 
 🛠️ Kullanılan Teknolojiler
 Dil: Python 3
-
 Arayüz (GUI): Tkinter
+Derleme Araçları: PyInstaller (Windows & Linux için bağımsız binary üretimi)
+Konteynerleştirme: Docker (X11 GUI Forwarding)
+
 
 Dosya ve Sistem Yönetimi: os, tempfile
 
