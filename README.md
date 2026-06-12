@@ -29,7 +29,7 @@ Sisteminizde **Python 3** yüklüyse, terminal veya komut satırı üzerinden ş
 
 1. Bu depoyu bilgisayarınıza klonlayın veya ZIP olarak indirin:
    ```bash
-   git clone [https://github.com/kullanici_adiniz/fk-text-editor.git](https://github.com/kullanici_adiniz/fk-text-editor.git)
+   git clone [https://github.com/kullanici_adiniz/fk-text-editor.git](https://github.com/furkankarakocc/fk-text-editor.git)
 Proje klasörüne giriş yapın:
 
 Bash
